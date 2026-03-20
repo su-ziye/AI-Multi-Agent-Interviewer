@@ -35,5 +35,7 @@
 ```bash
 uvicorn backend:app --host 0.0.0.0 --port 8080
 
-### 2. 启动前端
+2. 启动前端
+
 streamlit run frontend.py --server.port 6006
+
